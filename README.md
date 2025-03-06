@@ -1,8 +1,3 @@
----
-output: github_document
-bibliography: bibliografia.bib
----
-
 #  Supplementary material for Nonparametric modal regression with missing observations in response (NP-Modal-Reg-Missing-Y) 
 Supplementary codes and data used in paper
 
