@@ -1,4 +1,5 @@
 #  Supplementary material for Nonparametric modal regression with missing observations in response (NP-Modal-Reg-Missing-Y) 
+
 Supplementary codes and data used in paper
 
 
@@ -13,33 +14,40 @@ Please cite this paper as:
 }
 ```
 
-# Installation  
+# R packages  
 In order to use paper implementation and run all files (numerical and real examples), the following prerequisites (packages) are needed:
 
-
-## 1. packages
-
 ```{r , eval = FALSE}
-paquetes <- c("nor1mix", "pracma", "np", "hdrcde", "multimode", "lpme")
-install.packages(paquetes)
+pkg<-c("hdrcde", "nor1mix","multimode", "np", "lpme", "pracma", "sm",
+       "BART")
+install.packages(pkg)
 ```
 
 In order to compile C code is necessary:
 ```{r , eval = FALSE}
-paquetes.2 <- c("RcppArmadillo", "inline")
-install.packages(paquetes)
+pkg <- c("RcppArmadillo", "inline")
+install.packages(pkg)
 ```
+In order to obtain the graphics
+```{r , eval = FALSE}
+pkg <- c("rgl", "RColorBrewer", "ggplot2", "gridExtra", "reshape2")
+install.packages(pkg)
+```
+
 
 # Simulation (Numerical Studies)
 
-+ `simulation.R`: Code for all simulations.
++ `sim-escenario1-missing-1.R`, `sim-escenario1-missing-2.R`, `sim-escenario1-missing-3.R`, `sim-escenario1-missing-4.R`: Code of scenario 1 with missing data model given by:.
 
-  - Linear smooth (LS)
-  - Linear non-smooth (LNS)
-  - Nonlinear smooth (NLS)
-  - Nonlinear non-smooth (NLNS)
+  - 1 -- $p\left(x\right)=0.6+0.3\cos(\pi x)$.%1/(1+exp(-2*(x-0.3)^2))$.
+	- 2 -- $p\left(x\right)=0.6+0.3\cos(2 \pi x)$.%1/(1+exp(2*(x-0.8)^2))$.
+	- 3 -- $p\left(x\right)=0.7+0.3\cos(2\pi x^2)$.
+	- 4 -- $p\left(x\right)=0.75$.%0.6+0.3\cos(2*\pi*x)$.  
+  - 2
+  - 3
+  - 4
   
-+ `sim--missing--1.R`, `sim--missing--2.R`, `sim--missing--3.R`, `sim--missing--4.R`, scripts with the parameters for each simulation scenario (Scenarios 1--4).
++ `sim-escenario1-missing-1.R`, `sim-escenario1-missing-2.R`, `sim-escenario1-missing-3.R`, `sim-escenario1-missing-4.R`, scripts of scenario 1 with the parameters for each missing data mode given by:.
 
 # Real Data Applications
 
