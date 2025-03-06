@@ -37,14 +37,21 @@ install.packages(pkg)
 
 # Simulation (Numerical Studies)
 
-+ `sim-escenario1-missing-1.R`, `sim-escenario1-missing-2.R`, `sim-escenario1-missing-3.R`, `sim-escenario1-missing-4.R`: Code of scenario 1 with missing data model given by:.
++ `escenario1.R`, `escenario2.R`, `escenario3.R`, `escenario4.R`: Code of scenario 1 -- 4 for all simulations.
+
+  - Simplified estimator (S)
+  - Inversely Probability Weighting estimator (IPW)
+  - Imputed simple estimator (IS)
+  - Imputed multiple estimator (IM)
+  
++ `sim-escenario1-missing-1.R`, `sim-escenario1-missing-2.R`, `sim-escenario1-missing-3.R`, `sim-escenario1-missing-4.R`, scripts of scenario 1 with the parameters for each missing data mode given by:.
 
   - M1: $p\left(x\right)=0.6+0.3\cos(\pi x)$.
   - M2: $p\left(x\right)=0.6+0.3\cos(2 \pi x)$.
   - M3 $p\left(x\right)=0.7+0.3\cos(2\pi x^2)$.
   - M4 $p\left(x\right)=0.75$.%0.6+0.3\cos(2*\pi*x)$.
-  
-+ `sim-escenario1-missing-1.R`, `sim-escenario1-missing-2.R`, `sim-escenario1-missing-3.R`, `sim-escenario1-missing-4.R`, scripts of scenario 1 with the parameters for each missing data mode given by:.
+
++ idem for all other scenarios.
 
 # Real Data Applications
 
