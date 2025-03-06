@@ -39,13 +39,10 @@ install.packages(pkg)
 
 + `sim-escenario1-missing-1.R`, `sim-escenario1-missing-2.R`, `sim-escenario1-missing-3.R`, `sim-escenario1-missing-4.R`: Code of scenario 1 with missing data model given by:.
 
-  - 1 -- $p\left(x\right)=0.6+0.3\cos(\pi x)$.%1/(1+exp(-2*(x-0.3)^2))$.
-	- 2 -- $p\left(x\right)=0.6+0.3\cos(2 \pi x)$.%1/(1+exp(2*(x-0.8)^2))$.
-	- 3 -- $p\left(x\right)=0.7+0.3\cos(2\pi x^2)$.
-	- 4 -- $p\left(x\right)=0.75$.%0.6+0.3\cos(2*\pi*x)$.  
-  - 2
-  - 3
-  - 4
+  - M1: $p\left(x\right)=0.6+0.3\cos(\pi x)$.
+  - M2: $p\left(x\right)=0.6+0.3\cos(2 \pi x)$.
+  - M3 $p\left(x\right)=0.7+0.3\cos(2\pi x^2)$.
+  - M4 $p\left(x\right)=0.75$.%0.6+0.3\cos(2*\pi*x)$.
   
 + `sim-escenario1-missing-1.R`, `sim-escenario1-missing-2.R`, `sim-escenario1-missing-3.R`, `sim-escenario1-missing-4.R`, scripts of scenario 1 with the parameters for each missing data mode given by:.
 
