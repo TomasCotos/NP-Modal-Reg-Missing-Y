@@ -94,7 +94,7 @@ or multiple imputation.
 Smooth bidimensional estimator of (`age`,`cd496`). Similar to histogram
 of Figure 9.
 
-![](README-copy_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](README_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 The corresponding plot are displayed in Figure 8 of paper.
 
