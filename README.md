@@ -59,6 +59,8 @@ install.packages(pkg)
 
 - idem for all other scenarios.
 
+# Real Data Applications
+
 ## 1. Study of HIV-AIDS
 
 Our first example is the `ACTG 175` dataset available from the R-package
