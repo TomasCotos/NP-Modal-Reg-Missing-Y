@@ -1,0 +1,38 @@
+
+
+O valor -9999 indicará dato non rexistrado
+
+ESTACIÓN MANUAL:Boia de Cíes	CONCELLO:Vigo   PROVINCIA:Pontevedra
+Tipo de consulta: Variables diarias
+Período:01/01/2021-31/12/2021
+
+VARIABLES CONSULTADAS:
+VAR 0:Velocidade do Vento(m/s)	
+VAR 1:Temperatura Media do aire(ºC)	
+VAR 2:Temperatura Máxima do Aire(ºC)	
+VAR 3:Temperatura Mínima do Aire(ºC)	
+VAR 4:Humidade Relativa Media(%)	
+VAR 5:Refacho(m/s)	
+VAR 6:Humidade Relativa Máxima(%)	
+VAR 7:Humidade Relativa Mínima(%)	
+VAR 8:Dirección do Refacho(graos)	
+VAR 9:Temperatura de Orballo(ºC)	
+VAR 10:Dirección do vento predominante(º)	
+VAR 11:Osíxeno(mL/L)	
+VAR 12:Máximo Osíxeno Disuelto(mL/L)	
+VAR 13:Mínimo Osíxeno Disuelto(mL/L)	
+VAR 14:Temperatura (Superficie)(ºC)	
+VAR 15:Conductividade (Superficie)(mS/cm)	
+VAR 16:Salinidade (Superficie)()	
+VAR 17:Anomalía da Densidade (Superficie)(kg/m3)	
+VAR 18:Temperatura Máxima (Superficie)(ºC)	
+VAR 19:Conductividade Máxima (Superficie)(mS/cm)	
+VAR 20:Salinidade Máxima (superficie)()	
+VAR 21:Anomalía da Densidade Máxima (Superficie)(kg/m3)	
+VAR 22:Temperatura Mínima (Superficie)(ºC)	
+VAR 23:Conductividade Mínima (Superficie)(mS/cm)	
+VAR 24:Salinidade Mínima (superficie)()	
+VAR 25:Anomalía da Densidade Mínima (Superficie)(kg/m3)	
+
+
+Data 	VAR 0	VAR 1	VAR 2	VAR 3	VAR 4	VAR 5	VAR 6	VAR 7	VAR 8	VAR 9	VAR 10	VAR 11	VAR 12	VAR 13	VAR 14	VAR 15	VAR 16	VAR 17	VAR 18	VAR 19	VAR 20	VAR 21	VAR 22	VAR 23	VAR 24	VAR 25
