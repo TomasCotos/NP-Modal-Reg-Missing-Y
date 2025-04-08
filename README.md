@@ -6,11 +6,15 @@ Crujeiras (2025)
 
 Please cite this paper as:
 
-    @article{PerezGonzalez2025,
-      title={Nonparametric modal regression with missing observations in response},
-      author={Ana Pérez-González, Tomás R. Cotos-Yañez and Rosa M. Crujeiras},
-      journal={},
-      year={2025}
+    @article{pérezgonzález2025nonparametricmodalregressionmissing,
+      title={Nonparametric modal regression with missing response observations}, 
+      author={Ana Pérez-González and Tomás R. Cotos-Yáñez and Rosa M. Crujeiras},
+      year={2025},
+      eprint={2504.04914},
+      archivePrefix={arXiv},
+      primaryClass={stat.ME},
+      doi= {10.48550/arXiv.2504.04914},
+      url={https://arxiv.org/abs/2504.04914}, 
     }
 
 # R packages
@@ -195,8 +199,9 @@ entry-spacing="0">
 
 <div id="ref-PerezGonzalez2025" class="csl-entry">
 
-Ana Pérez-González, Tomás R. Cotos-Yañez, and Rosa M. Crujeiras. 2025.
-“Nonparametric Modal Regression with Missing Observations in Response.”
+Pérez-González, A. and Cotos-Yáñez, T.R. and Crujeiras, R.M., 2025.
+“Nonparametric modal regression with missing response observations”.
+arXiv Preprint arXiv:2504.04914. <https://arxiv.org/abs/2504.04914>.
 
 </div>
 
